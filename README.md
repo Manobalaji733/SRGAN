@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     %% Define Styles
     classDef data fill:#2b3137,stroke:#fafbfc,stroke-width:2px,color:#fff;
@@ -31,3 +32,4 @@ graph TD
     I -->|Backpropagation| C
     D -->|Classification Error| J[Discriminator Error]:::loss
     J -->|Backpropagation| D
+```
